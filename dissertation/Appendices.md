@@ -82,7 +82,7 @@ seaborn==0.13.2
 ### B.1 Project Structure
 
 ```
-D:\dunster-masters\
+Project Root/
 ├── data/
 │   ├── raw/                    # Raw datasets
 │   │   ├── diabetes.csv        # Pima Indians Diabetes Database
@@ -138,7 +138,7 @@ D:\dunster-masters\
 python main.py --data data/raw/diabetes.csv --target Outcome --task classification
 ```
 
-**Full Source Code**: Available at `d:\dunster-masters\main.py` (303 lines)
+**Full Source Code**: Available at [main.py on GitHub](https://github.com/abhsmartit/dunster-masters-ml-diabetes-prevention/blob/main/main.py) (303 lines)
 
 ### A.3 Diabetes Data Loader Module (src/diabetes_data_loader.py)
 
@@ -162,7 +162,7 @@ python main.py --data data/raw/diabetes.csv --target Outcome --task classificati
 - `handle_zero_values()`: Median imputation for zeros
 - `prepare_for_modeling(target_column, scale_features=True)`: Returns train/test splits
 
-**Full Source Code**: Available at `d:\dunster-masters\src\diabetes_data_loader.py` (385 lines)
+**Full Source Code**: Available at [src/diabetes_data_loader.py on GitHub](https://github.com/abhsmartit/dunster-masters-ml-diabetes-prevention/blob/main/src/diabetes_data_loader.py) (385 lines)
 
 ### A.4 Model Development Module (src/model_development.py)
 
@@ -185,7 +185,7 @@ python main.py --data data/raw/diabetes.csv --target Outcome --task classificati
 - `train_models(models, X_train, y_train)`: Batch training with error handling
 - `evaluate_models(models, X_test, y_test)`: Generates predictions and metrics
 
-**Full Source Code**: Available at `d:\dunster-masters\src\model_development.py` (454 lines)
+**Full Source Code**: Available at [src/model_development.py on GitHub](https://github.com/abhsmartit/dunster-masters-ml-diabetes-prevention/blob/main/src/model_development.py) (454 lines)
 
 ### A.5 Model Evaluation Module (src/model_evaluation.py)
 
@@ -207,7 +207,7 @@ python main.py --data data/raw/diabetes.csv --target Outcome --task classificati
 5. ROC-AUC: Area under ROC curve
 6. Confusion Matrix: [[TN, FP], [FN, TP]]
 
-**Full Source Code**: Available at `d:\dunster-masters\src\model_evaluation.py` (547 lines)
+**Full Source Code**: Available at [src/model_evaluation.py on GitHub](https://github.com/abhsmartit/dunster-masters-ml-diabetes-prevention/blob/main/src/model_evaluation.py) (547 lines)
 
 ---
 
