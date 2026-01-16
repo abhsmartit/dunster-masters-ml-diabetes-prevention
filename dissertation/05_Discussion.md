@@ -226,6 +226,12 @@ Successful clinical deployment requires earning clinician trust through:
 - **Monitoring**: Prometheus and Grafana for real-time performance tracking
 - **Security**: HIPAA-compliant encryption (at rest and in transit), role-based access control, audit logging
 
+**Architecture Overview**: See Figure 5.1 for the complete system architecture diagram showing data flow, component interactions, and deployment topology.
+
+Figure 5.1: System deployment architecture with data flow from clinician input through model inference to clinical dashboard output, including monitoring and continuous learning feedback loops.
+
+**Technical Implementation**: See Figure 5.2 for detailed technical architecture showing containerized microservices, database layer, caching mechanisms, and monitoring infrastructure.
+
 ### 5.6.2 Implementation Roadmap
 
 **Phase 1: Silent Mode Deployment (Months 1-6)**

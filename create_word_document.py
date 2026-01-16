@@ -323,6 +323,21 @@ def add_markdown_content(doc, markdown_text, chapter_name, results_folder):
         img_path = os.path.join(results_folder, 'feature_importance.png')
         if add_image_if_exists(doc, img_path, 'Figure 4.4: Feature Importance Rankings from Random Forest'):
             pass
+    
+    # Add figures for Discussion chapter
+    if 'Chapter 5' in chapter_name or 'Discussion' in chapter_name:
+        doc.add_page_break()
+        doc.add_heading('Deployment Architecture Diagrams', level=2)
+        
+        # Deployment Architecture
+        img_path = os.path.join(results_folder, '..', '..', 'deployment_architecture.png')
+        if add_image_if_exists(doc, img_path, 'Figure 5.1: Proposed ML-Based Diabetes Prediction System Deployment Architecture'):
+            pass
+        
+        # Technical Architecture
+        img_path = os.path.join(results_folder, '..', '..', 'technical_architecture.png')
+        if add_image_if_exists(doc, img_path, 'Figure 5.2: Technical Architecture with Microservices and Monitoring Infrastructure'):
+            pass
 
 def create_dissertation_document():
     """Create the complete dissertation Word document with images"""
