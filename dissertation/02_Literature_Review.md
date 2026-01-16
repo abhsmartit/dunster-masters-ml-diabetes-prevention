@@ -130,7 +130,3 @@ This research addresses these gaps through systematic comparison of nine algorit
 ## 2.10 Summary
 
 Type 2 diabetes affects hundreds of millions globally with substantial economic and health burdens. Traditional assessment methods show limitations; ML-based approaches have demonstrated promise with typical accuracy 76-86%. Research suggests performance has plateaued, implying data limitations. Ensemble methods (Random Forests, Gradient Boosting) consistently outperform alternatives. Clinical adoption requires interpretable models with robust external validation and ethical safeguards addressing bias, privacy, and fairness. This literature review establishes foundations for the methodology, results, and discussion chapters that follow, identifying opportunities for systematic algorithm comparison, methodological rigor, and clinical orientation.
-
----
-
-**Current Chapter Word Count**: ~1,800 words

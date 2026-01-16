@@ -946,7 +946,3 @@ The following chapter (Chapter 4) presents the results obtained through this met
 - **Evaluation Metrics**: 6 primary metrics
 - **Implementation Lines of Code**: ~1,500 (across all modules)
 - **Reproducibility**: Full via random seed control
-
----
-
-**Current Chapter Word Count**: ~3,600 words ✓ (Exceeds target)

@@ -82,12 +82,6 @@ This research contributes to ML-based healthcare decision-making through:
 
 **Chapter 6** concludes with research contributions, recommendations for stakeholders, and future research directions.
 
----
-
-**Current Chapter Word Count**: ~1,000 words
-
----
-
 ## 1.5 Significance of the Study
 
 This research contributes to multiple domains:
@@ -227,42 +221,4 @@ The subsequent chapters will detail the methodology employed, present comprehens
 
 **End of Chapter 1**
 
----
 
-## Writing Guidelines for This Chapter
-
-### To Complete This Chapter:
-
-1. **Expand Background Section** (Current: ~600 words, Target: 800-900 words)
-   - Add 2-3 more references on diabetes global burden
-   - Include recent statistics (2023-2024 data)
-   - Discuss healthcare system impact in more detail
-
-2. **Enhance Problem Statement** (Current: ~400 words, Target: 500-600 words)
-   - Add quantitative evidence for each challenge
-   - Include case studies or examples
-   - Cite relevant research supporting each point
-
-3. **Detailed Research Questions** (Current: ~200 words, Target: 300-400 words)
-   - Expand each question with context
-   - Explain why each question matters
-   - Link to specific hypotheses
-
-4. **Significance Section** (Current: ~500 words, Target: 700-800 words)
-   - Add specific examples of impact
-   - Quantify potential benefits where possible
-   - Discuss broader implications for AI in healthcare
-
-5. **Add Subsections**
-   - 1.10 Key Definitions and Terminology (200-300 words)
-   - 1.11 Expected Outcomes (150-200 words)
-
-### References to Add:
-- WHO diabetes reports (2023-2024)
-- Recent Nature/Science papers on ML in healthcare
-- Healthcare economics studies on diabetes costs
-- Systematic reviews of diabetes prediction models
-- AI ethics frameworks (IEEE, WHO guidance)
-
-### Current Word Count: ~2,100 words ✓ (Meets minimum)
-### Target for Enhancement: 2,500-2,800 words
