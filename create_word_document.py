@@ -353,6 +353,11 @@ def add_markdown_content(doc, markdown_text, chapter_name, results_folder):
         img_path = os.path.join(results_folder, '..', '..', 'implementation_phases.png')
         if add_image_if_exists(doc, img_path, 'Figure 5.3: Clinical Implementation Workflow and Deployment Phases with Success Criteria'):
             pass
+        
+        # Design Architecture
+        img_path = os.path.join(results_folder, '..', '..', 'design_architecture.png')
+        if add_image_if_exists(doc, img_path, 'Figure 5.4: System Design Architecture - Layered Framework with Components, Data Flow, and Technology Stack'):
+            pass
 
 def create_dissertation_document():
     """Create the complete dissertation Word document with images"""
