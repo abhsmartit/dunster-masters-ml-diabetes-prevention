@@ -6,7 +6,7 @@
 
 ### A.1 Public GitHub Repository
 
-**Repository URL**: [https://github.com/YOUR_USERNAME/ml-diabetes-prediction](https://github.com/YOUR_USERNAME/ml-diabetes-prediction)
+**Repository URL**: [https://github.com/abhsmartit/dunster-masters-ml-diabetes-prevention](https://github.com/abhsmartit/dunster-masters-ml-diabetes-prevention)
 
 The complete source code, documentation, and dissertation materials for this project are publicly available on GitHub. The repository includes:
 
@@ -49,8 +49,8 @@ To replicate this research:
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/ml-diabetes-prediction.git
-cd ml-diabetes-prediction
+git clone https://github.com/abhsmartit/dunster-masters-ml-diabetes-prevention.git
+cd dunster-masters-ml-diabetes-prevention
 
 # Install dependencies
 pip install -r requirements.txt

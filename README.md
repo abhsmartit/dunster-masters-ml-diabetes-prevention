@@ -7,7 +7,7 @@
 
 ## 🔗 GitHub Repository
 
-**Public Repository**: [https://github.com/YOUR_USERNAME/ml-diabetes-prediction](https://github.com/YOUR_USERNAME/ml-diabetes-prediction)
+**Public Repository**: [https://github.com/abhsmartit/dunster-masters-ml-diabetes-prevention](https://github.com/abhsmartit/dunster-masters-ml-diabetes-prevention)
 
 ## Project Title
 **Machine Learning-Based Diabetes Risk Prediction System: Design, Development, and Evaluation for Early Intervention and Healthcare Optimization**
