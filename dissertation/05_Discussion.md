@@ -261,6 +261,10 @@ Figure 5.1: System deployment architecture with data flow from clinician input t
 - Develop training materials and certification for clinical users
 - Establish governance structure for ongoing model monitoring and updates
 
+**Implementation Timeline**: See Figure 5.3 for a detailed visualization of all four deployment phases, including key activities, success criteria, and evaluation metrics for each phase. The diagram illustrates the progression from silent mode testing through clinical validation to full-scale production deployment.
+
+Figure 5.3: Clinical implementation workflow showing the four deployment phases with timelines, success criteria, and clinical/technical evaluation metrics for each phase.
+
 ### 5.6.3 Regulatory and Ethical Considerations
 
 **FDA Approval**: The model likely qualifies as Software as a Medical Device (SaMD) requiring FDA approval or exemption. Given its decision support (not autonomous decision-making) role, it might qualify for "non-device" status under the 21st Century Cures Act if it supports (not replaces) clinical judgment.

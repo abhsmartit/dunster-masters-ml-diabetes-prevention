@@ -22,15 +22,11 @@ The experimental design follows a **comparative evaluation framework**, where mu
 
 ### 3.1.3 Research Workflow
 
+The complete research methodology follows a systematic, iterative workflow encompassing data acquisition, exploration, preprocessing, model development, and evaluation. Figure 3.1 provides a comprehensive visual representation of the end-to-end pipeline, from raw data collection through to clinical application and deployment.
+
 **Figure 3.1: Overall Research Methodology Workflow**
 
-```
-Data Acquisition → Data Exploration → Preprocessing → Feature Engineering
-                                                              ↓
-Model Deployment ← Model Selection ← Evaluation ← Training ← Train-Test Split
-        ↓
-Clinical Application
-```
+See Figure 3.1 for the complete ML pipeline workflow showing all phases from data collection through deployment and the continuous improvement feedback loop.
 
 ---
 

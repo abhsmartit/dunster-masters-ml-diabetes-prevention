@@ -299,6 +299,16 @@ def add_markdown_content(doc, markdown_text, chapter_name, results_folder):
         
         i += 1
     
+    # Add figures for Methodology chapter
+    if 'Chapter 3' in chapter_name or 'Methodology' in chapter_name:
+        doc.add_page_break()
+        doc.add_heading('Research Workflow Diagram', level=2)
+        
+        # Complete workflow diagram
+        img_path = os.path.join(results_folder, '..', '..', 'workflow_diagram.png')
+        if add_image_if_exists(doc, img_path, 'Figure 3.1: Complete ML Pipeline Workflow - From Data Collection Through Deployment and Feedback Loop'):
+            pass
+    
     # Add figures for Results chapter
     if 'Chapter 4' in chapter_name or 'Results' in chapter_name:
         doc.add_page_break()
@@ -337,6 +347,11 @@ def add_markdown_content(doc, markdown_text, chapter_name, results_folder):
         # Technical Architecture
         img_path = os.path.join(results_folder, '..', '..', 'technical_architecture.png')
         if add_image_if_exists(doc, img_path, 'Figure 5.2: Technical Architecture with Microservices and Monitoring Infrastructure'):
+            pass
+        
+        # Implementation Phases
+        img_path = os.path.join(results_folder, '..', '..', 'implementation_phases.png')
+        if add_image_if_exists(doc, img_path, 'Figure 5.3: Clinical Implementation Workflow and Deployment Phases with Success Criteria'):
             pass
 
 def create_dissertation_document():
