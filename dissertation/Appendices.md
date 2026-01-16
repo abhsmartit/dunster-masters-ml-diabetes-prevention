@@ -2,9 +2,84 @@
 
 ---
 
-## Appendix A: Complete Source Code Documentation
+## Appendix A: GitHub Repository and Source Code Access
 
-### A.1 Project Structure
+### A.1 Public GitHub Repository
+
+**Repository URL**: [https://github.com/YOUR_USERNAME/ml-diabetes-prediction](https://github.com/YOUR_USERNAME/ml-diabetes-prediction)
+
+The complete source code, documentation, and dissertation materials for this project are publicly available on GitHub. The repository includes:
+
+- **Source Code**: All Python modules for data processing, model development, and evaluation
+- **Datasets**: Pima Indians Diabetes Database and documentation
+- **Results**: Complete evaluation results, visualizations, and model performance metrics
+- **Dissertation**: All chapter markdown files and the final Word document
+- **Documentation**: README, implementation guides, and technical specifications
+
+### A.2 Repository Structure
+
+```
+ml-diabetes-prediction/
+├── src/                        # Python source code
+│   ├── diabetes_data_loader.py
+│   ├── data_processing.py
+│   ├── model_development.py
+│   ├── model_evaluation.py
+│   └── utils.py
+├── data/
+│   └── raw/
+│       └── diabetes.csv        # Pima Indians Diabetes Database
+├── results/
+│   └── diabetes/
+│       └── run_20260116_102525/
+│           ├── confusion_matrix.png
+│           ├── roc_curve.png
+│           ├── feature_importance.png
+│           └── model_comparison.png
+├── dissertation/               # All dissertation chapters
+├── main.py                     # Main pipeline orchestrator
+├── requirements.txt            # Python dependencies
+├── README.md                   # Project overview
+└── LICENSE                     # MIT License
+```
+
+### A.3 Cloning and Running the Code
+
+To replicate this research:
+
+```bash
+# Clone the repository
+git clone https://github.com/YOUR_USERNAME/ml-diabetes-prediction.git
+cd ml-diabetes-prediction
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the ML pipeline
+python main.py
+
+# Results will be saved in results/diabetes/run_TIMESTAMP/
+```
+
+### A.4 Dependencies
+
+```
+Python 3.14+
+scikit-learn==1.8.0
+xgboost==3.1.3
+lightgbm==4.6.0
+catboost==1.2.7
+pandas==2.2.3
+numpy==2.2.1
+matplotlib==3.10.0
+seaborn==0.13.2
+```
+
+---
+
+## Appendix B: Complete Source Code Documentation
+
+### B.1 Project Structure
 
 ```
 D:\dunster-masters\
@@ -46,7 +121,7 @@ D:\dunster-masters\
 └── requirements.txt            # Python dependencies
 ```
 
-### A.2 Main Pipeline Script (main.py)
+### B.2 Main Pipeline Script (main.py)
 
 **Purpose**: Orchestrates end-to-end ML pipeline from data loading through model evaluation and saving.
 
@@ -136,7 +211,7 @@ python main.py --data data/raw/diabetes.csv --target Outcome --task classificati
 
 ---
 
-## Appendix B: Dataset Details
+## Appendix C: Dataset Details
 
 ### B.1 Pima Indians Diabetes Database Characteristics
 
@@ -214,7 +289,7 @@ Smith, J. W., Everhart, J. E., Dickson, W. C., Knowler, W. C., & Johannes, R. S.
 
 ---
 
-## Appendix C: Model Hyperparameters
+## Appendix D: Model Hyperparameters
 
 ### C.1 Complete Hyperparameter Specifications
 
@@ -351,7 +426,7 @@ GaussianNB(
 
 ---
 
-## Appendix D: Complete Performance Results
+## Appendix E: Complete Performance Results
 
 ### D.1 Detailed Model Performance Metrics
 
@@ -429,7 +504,7 @@ Actual Positive              22                 32
 
 ---
 
-## Appendix E: Computational Environment
+## Appendix F: Computational Environment
 
 ### E.1 Software Versions
 
@@ -495,7 +570,7 @@ print(sklearn.__version__)  # Should output 1.8.0
 
 ---
 
-## Appendix F: Visualizations
+## Appendix G: Visualizations
 
 ### F.1 Model Comparison Chart
 
@@ -529,7 +604,7 @@ print(sklearn.__version__)  # Should output 1.8.0
 
 ---
 
-## Appendix G: Ethical Considerations and IRB Documentation
+## Appendix H: Ethical Considerations and IRB Documentation
 
 ### G.1 Ethical Review
 
@@ -611,7 +686,7 @@ print(sklearn.__version__)  # Should output 1.8.0
 
 ---
 
-## Appendix H: Glossary of Terms
+## Appendix I: Glossary of Terms
 
 **Accuracy**: Proportion of correct predictions (TP+TN)/(TP+TN+FP+FN)
 
@@ -689,7 +764,7 @@ print(sklearn.__version__)  # Should output 1.8.0
 
 ---
 
-## Appendix I: Future Enhancement Recommendations
+## Appendix J: Future Enhancement Recommendations
 
 ### I.1 Immediate Improvements (1-3 Months)
 
