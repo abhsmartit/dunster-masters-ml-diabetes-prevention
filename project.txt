@@ -1,0 +1,41 @@
+Masters in Artificial Intelligence and Machine Learning
+
+Project Title:
+“Design and Implementation of Artificial Intelligence and Machine Learning Models for
+Data-Driven Decision Making and Organizational Performance Enhancement”
+Project Brief:
+This project focuses on how Artificial Intelligence (AI) and Machine Learning (ML) techniques
+are applied to real-world datasets to support data-driven decision making and improve
+organizational performance. The learner will design, develop, and evaluate suitable AI/ML
+models to solve practical business or operational problems, emphasizing accuracy, scalability,
+and ethical use of data.
+
+Key Requirements:
+1, Problem / Domain Selection
+● Select one application area such as business analytics, finance, healthcare, operations,
+marketing, or risk analysis
+● Clearly define the problem statement and objectives
+
+2. Data Understanding & Preparation
+● Data collection and preprocessing
+● Feature selection and data transformation
+
+3. Model Development
+● Selection of appropriate AI / ML algorithms
+● Model training, testing, and validation
+
+4. Performance Evaluation
+● Model accuracy and performance metrics
+● Comparison of results and interpretation
+5. Application & Improvement Strategy
+● Practical application of results
+● Recommendations for model improvement and deployment
+Final Output
+A structured 15,000–20,000 word dissertation.Inclusion of machine learning models, algorithms,
+evaluation metrics, and result analysis.Model architectures, datasets, and performance
+summaries to be included as appendices where required.
+Expected Learning Outcomes
+● Understanding of AI and Machine Learning concepts
+● Ability to design and evaluate ML models
+● Practical exposure to data-driven decision-making
+● Application of AI solutions to real-world problems

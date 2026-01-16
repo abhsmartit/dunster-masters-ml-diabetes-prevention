@@ -1,0 +1,91 @@
+{
+    "timestamp": "20260116_102704",
+    "data_path": "data/raw/diabetes.csv",
+    "target_column": "Outcome",
+    "task_type": "classification",
+    "test_size": 0.2,
+    "random_state": 42,
+    "dataset_shape": {
+        "total_samples": 768,
+        "n_features": 8,
+        "train_samples": 614,
+        "test_samples": 154
+    },
+    "best_model": "Random Forest",
+    "best_model_path": "models\\best_model_Random_Forest_20260116_102704.joblib",
+    "model_comparison": [
+        {
+            "Model": "Random Forest",
+            "Accuracy": 0.7597402597402597,
+            "Precision": 0.7545792843068642,
+            "Recall": 0.7597402597402597,
+            "F1-Score": 0.7554767899150163,
+            "ROC-AUC": 0.8147222222222222
+        },
+        {
+            "Model": "SVM",
+            "Accuracy": 0.7532467532467533,
+            "Precision": 0.7496603396603396,
+            "Recall": 0.7532467532467533,
+            "F1-Score": 0.7509206479794716,
+            "ROC-AUC": 0.7924074074074074
+        },
+        {
+            "Model": "Gradient Boosting",
+            "Accuracy": 0.7532467532467533,
+            "Precision": 0.7483459936290124,
+            "Recall": 0.7532467532467533,
+            "F1-Score": 0.7495827986975903,
+            "ROC-AUC": 0.8388888888888889
+        },
+        {
+            "Model": "LightGBM",
+            "Accuracy": 0.7402597402597403,
+            "Precision": 0.7337348641696468,
+            "Recall": 0.7402597402597403,
+            "F1-Score": 0.7348651348651349,
+            "ROC-AUC": 0.8174074074074075
+        },
+        {
+            "Model": "XGBoost",
+            "Accuracy": 0.7337662337662337,
+            "Precision": 0.7326659889708648,
+            "Recall": 0.7337662337662337,
+            "F1-Score": 0.7331844237967826,
+            "ROC-AUC": 0.8051851851851852
+        },
+        {
+            "Model": "Decision Tree",
+            "Accuracy": 0.7207792207792207,
+            "Precision": 0.710812606344659,
+            "Recall": 0.7207792207792207,
+            "F1-Score": 0.710195463049429,
+            "ROC-AUC": 0.6657407407407406
+        },
+        {
+            "Model": "Logistic Regression",
+            "Accuracy": 0.7142857142857143,
+            "Precision": 0.7064642282033586,
+            "Recall": 0.7142857142857143,
+            "F1-Score": 0.7083516483516483,
+            "ROC-AUC": 0.8229629629629629
+        },
+        {
+            "Model": "Naive Bayes",
+            "Accuracy": 0.7077922077922078,
+            "Precision": 0.7178798638343852,
+            "Recall": 0.7077922077922078,
+            "F1-Score": 0.7113863833845812,
+            "ROC-AUC": 0.7727777777777778
+        },
+        {
+            "Model": "KNN",
+            "Accuracy": 0.7012987012987013,
+            "Precision": 0.6946214163195296,
+            "Recall": 0.7012987012987013,
+            "F1-Score": 0.6968633878970829,
+            "ROC-AUC": 0.7404629629629629
+        }
+    ],
+    "output_directory": "results\\run_20260116_102704"
+}
